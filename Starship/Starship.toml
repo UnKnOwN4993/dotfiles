@@ -24,6 +24,7 @@ disabled = false
 [shell]
 fish_indicator = "🐟"
 bash_indicator = "🐧"
+powershell_indicator = "🪟"
 unknown_indicator = "mystery shell"
 style = "cyan bold "
 disabled = false
