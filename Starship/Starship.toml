@@ -1,30 +1,23 @@
-right_format = "$time $battery"
-
+right_format = "$battery"
 [character]
 success_symbol = "[→](bold green)"
 error_symbol = "[✕](bold red)"
 
 [battery]
-full_symbol = "🔋"
-charging_symbol = "🔌"
-discharging_symbol = "🪫"
-empty_symbol = "💀"
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
+empty_symbol = ""
 format = "[$symbol $percentage ]($style)"
 disabled = false
 
 [[battery.display]]
 threshold = 100
-style = "bold red dimmed"
-
-[time]
-format = "[🕒 $time](bold red dimmed)"
-time_format = "%T"
-disabled = false
+style = "bold red"
 
 [shell]
-fish_indicator = "🐟"
-bash_indicator = "🐧"
-powershell_indicator = "🪟"
+fish_indicator = ""
+powershell_indicator = " "
 unknown_indicator = "mystery shell"
-style = "cyan bold "
+style = "cyan"
 disabled = false
