@@ -1,7 +1,7 @@
 right_format = "$battery"
 [character]
 success_symbol = "[→](bold green)"
-error_symbol = "[✕](bold red)"
+error_symbol = "[→](bold red)"
 
 [battery]
 full_symbol = ""
@@ -17,7 +17,7 @@ style = "bold red"
 
 [shell]
 fish_indicator = ""
-powershell_indicator = " "
+powershell_indicator = ""
 unknown_indicator = "mystery shell"
 style = "cyan"
 disabled = false
